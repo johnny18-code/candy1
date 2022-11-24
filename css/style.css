@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    background-color: #BD84AA;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #C1CBE7;
+    text-transform: uppercase;
+}
+
+/* NAVBAR */
+
+.container-home {
+    padding-bottom: 10%;
+}
+
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    font-weight: bold;
+}
+
+#nav-color {
+    color: #A23A47;
+}
+
+/* home start */
+
+h1 {
+    font-size: 2em;
+}
+
+.container-home .candy-image {
+    width: 100%;
+
+}
+
+.container-home .home-pad {
+    padding: 0;
+}
+
+.container-home .home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slash {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* next-home and all */
+
+.container-home .next-home {
+    padding: 0;
+}
+
+.container-home .next-home-text {
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-form {
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.for-form input[type="email"] {
+    border-radius: 0.2em;
+    border: none;
+    margin-right: 3%;
+    padding: 6px 12px;
+}
+
+/* candy */
+
+.fa-solid {
+    font-size: 2em;
+    margin: 2% 0;
+}
+
+
+
+
+
+/* media query */
+
+
+@media screen and (max-width: 991px) {
+    #to-hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .order-1 {
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-home .next-home-text {
+        padding-bottom: 10%;
+    }
+}
